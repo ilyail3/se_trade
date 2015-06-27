@@ -37,9 +37,9 @@
   <Entry BlueprintSubtypeId="Nickel_Canister_Buy" Class="Credit_BPC"/>
   <Entry BlueprintSubtypeId="Nickel_Canister_Sell" Class="Credit_BPC"/>
   <Entry BlueprintSubtypeId="Nickel_Canister_Compress" Class="Canister_BPC"/>
-  <Entry BlueprintSubtypeId="Cobal_Canister_Buy" Class="Credit_BPC"/>
-  <Entry BlueprintSubtypeId="Cobal_Canister_Sell" Class="Credit_BPC"/>
-  <Entry BlueprintSubtypeId="Cobal_Canister_Compress" Class="Canister_BPC"/>
+  <Entry BlueprintSubtypeId="Cobalt_Canister_Buy" Class="Credit_BPC"/>
+  <Entry BlueprintSubtypeId="Cobalt_Canister_Sell" Class="Credit_BPC"/>
+  <Entry BlueprintSubtypeId="Cobalt_Canister_Compress" Class="Canister_BPC"/>
   <Entry BlueprintSubtypeId="Magnesium_Canister_Buy" Class="Credit_BPC"/>
   <Entry BlueprintSubtypeId="Magnesium_Canister_Sell" Class="Credit_BPC"/>
   <Entry BlueprintSubtypeId="Magnesium_Canister_Compress" Class="Canister_BPC"/>

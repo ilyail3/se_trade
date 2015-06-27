@@ -56,14 +56,14 @@
   <Blueprint>
     <Id>
       <TypeId>BlueprintDefinition</TypeId>
-      <SubtypeId>Cobal_Canister_Compress</SubtypeId>
+      <SubtypeId>Cobalt_Canister_Compress</SubtypeId>
     </Id>
-    <DisplayName>Cobal Canister</DisplayName>
+    <DisplayName>Cobalt Canister</DisplayName>
     <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
     <Prerequisites>
-      <Item TypeId="Ingot" Amount="500" SubtypeId="Cobal"/>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Cobalt"/>
     </Prerequisites>
-    <Result TypeId="Component" Amount="1" SubtypeId="Cobal_Canister"/>
+    <Result TypeId="Component" Amount="1" SubtypeId="Cobalt_Canister"/>
     <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
   </Blueprint>
   <Blueprint>
@@ -251,25 +251,25 @@
   <Blueprint>
     <Id>
       <TypeId>BlueprintDefinition</TypeId>
-      <SubtypeId>Cobal_Canister_Buy</SubtypeId>
+      <SubtypeId>Cobalt_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Cobal Canister</DisplayName>
+    <DisplayName>Cobalt Canister</DisplayName>
     <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="9" SubtypeId="Credit"/>
     </Prerequisites>
-    <Result TypeId="Component" Amount="89" SubtypeId="Cobal_Canister"/>
+    <Result TypeId="Component" Amount="89" SubtypeId="Cobalt_Canister"/>
     <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
   </Blueprint>
   <Blueprint>
     <Id>
       <TypeId>BlueprintDefinition</TypeId>
-      <SubtypeId>Cobal_Canister_Sell</SubtypeId>
+      <SubtypeId>Cobalt_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Cobal Canister</DisplayName>
+    <DisplayName>Cobalt Canister</DisplayName>
     <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
     <Prerequisites>
-      <Item TypeId="Component" Amount="89" SubtypeId="Cobal_Canister"/>
+      <Item TypeId="Component" Amount="89" SubtypeId="Cobalt_Canister"/>
     </Prerequisites>
     <Result TypeId="Component" Amount="9" SubtypeId="Credit"/>
     <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>

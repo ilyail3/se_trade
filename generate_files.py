@@ -19,7 +19,7 @@ ore_values = [
 	Ingot("Stone", 279, "Gravel"),
 	Ingot("Iron", 350),
 	Ingot("Nickel", 8),
-	Ingot("Cobal", 6.6),
+	Ingot("Cobalt", 6.6),
 	Ingot("Magnesium", 0.168, "Magnesium Powder"),
 	Ingot("Silicon", 15.4, "Silicon Wafer"),
 	Ingot("Silver", 2.2),
