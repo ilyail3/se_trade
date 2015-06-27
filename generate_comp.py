@@ -50,4 +50,4 @@ def generate_comp(ore_values, assembler_efficiency):
 	
 		
 
-	write_file("Data/Comp.xml", components)
+	write_file("Data/Comp.sbc", components)

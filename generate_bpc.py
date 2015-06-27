@@ -56,4 +56,4 @@ def generate_bpc(ore_values, assembler_efficiency):
 	
 		
 
-	write_file("Data/BPC.xml", [classes, entries])
+	write_file("Data/BPC.sbc", [classes, entries])

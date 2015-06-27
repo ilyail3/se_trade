@@ -1,430 +1,435 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Blueprints>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Ag</SubtypeId>
-      </Id>
-      <DisplayName>Silver Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Silver" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Ag_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Au</SubtypeId>
-      </Id>
-      <DisplayName>Gold Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Gold" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Au_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Co</SubtypeId>
-      </Id>
-      <DisplayName>Cobalt Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Cobalt" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Co_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Fe</SubtypeId>
-      </Id>
-      <DisplayName>Iron Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Iron" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Fe_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Mg</SubtypeId>
-      </Id>
-      <DisplayName>Magnesium Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Magnesium" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Mg_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Ni</SubtypeId>
-      </Id>
-      <DisplayName>Nickel Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Ni_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Pt</SubtypeId>
-      </Id>
-      <DisplayName>Platinum Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Platinum" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Pt_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Si</SubtypeId>
-      </Id>
-      <DisplayName>Silicon Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Silicon" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Si_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Stone</SubtypeId>
-      </Id>
-      <DisplayName>Stone Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Stone" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Stone_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_U</SubtypeId>
-      </Id>
-      <DisplayName>Uranium Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="500" TypeId="Ingot" SubtypeId="Uranium" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_U_R" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint>
+<Blueprints>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Ice_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Ice Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ore" Amount="500" SubtypeId="Ice"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Ice_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Stone_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Stone Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Stone"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Stone_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Iron_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Iron Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Iron"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Iron_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Nickel_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Nickel Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Nickel"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Nickel_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Cobal_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Cobal Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Cobal"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Cobal_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Magnesium_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Magnesium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Magnesium"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Magnesium_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Silicon_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Silicon Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Silicon"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Silicon_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Silver_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Silver Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Silver"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Silver_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Gold_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Gold Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Gold"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Gold_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Platinum_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Platinum Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Platinum"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Platinum_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Uranium_Canister_Compress</SubtypeId>
+    </Id>
+    <DisplayName>Uranium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Ingot" Amount="500" SubtypeId="Uranium"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Uranium_Canister"/>
+    <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Ice_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Ice Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="1" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="420" SubtypeId="Ice_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Ice_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Ice Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="420" SubtypeId="Ice_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Stone_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Stone Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="2" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="837" SubtypeId="Stone_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Stone_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Stone Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="837" SubtypeId="Stone_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="2" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Iron_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Iron Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="1" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="525" SubtypeId="Iron_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Iron_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Iron Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="525" SubtypeId="Iron_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Nickel_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Nickel Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="1" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="12" SubtypeId="Nickel_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Nickel_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Nickel Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="12" SubtypeId="Nickel_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Cobal_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Cobal Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="9" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="89" SubtypeId="Cobal_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Cobal_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Cobal Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="89" SubtypeId="Cobal_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="9" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Magnesium_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Magnesium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="4" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Magnesium_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Magnesium_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Magnesium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="1" SubtypeId="Magnesium_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="4" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Silicon_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Silicon Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="10" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="231" SubtypeId="Silicon_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Silicon_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Silicon Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="231" SubtypeId="Silicon_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="10" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Silver_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Silver Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="10" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="33" SubtypeId="Silver_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Silver_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Silver Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="33" SubtypeId="Silver_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="10" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Gold_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Gold Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="10" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="3" SubtypeId="Gold_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Gold_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Gold Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="3" SubtypeId="Gold_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="10" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Platinum_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Platinum Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="7" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="1" SubtypeId="Platinum_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Platinum_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Platinum Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="1" SubtypeId="Platinum_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="7" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Uranium_Canister_Buy</SubtypeId>
+    </Id>
+    <DisplayName>Uranium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="9" SubtypeId="Credit"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="4" SubtypeId="Uranium_Canister"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+  <Blueprint>
+    <Id>
+      <TypeId>BlueprintDefinition</TypeId>
+      <SubtypeId>Uranium_Canister_Sell</SubtypeId>
+    </Id>
+    <DisplayName>Uranium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <Prerequisites>
+      <Item TypeId="Component" Amount="4" SubtypeId="Uranium_Canister"/>
+    </Prerequisites>
+    <Result TypeId="Component" Amount="9" SubtypeId="Credit"/>
+    <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+  </Blueprint>
+</Blueprints>
 
-
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Ag</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="3" TypeId="Component" SubtypeId="Canister_Ag_R" />
-      </Prerequisites>
-      <Result Amount="10" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Au</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Canister_Au_R" />
-      </Prerequisites>
-      <Result Amount="30" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Co</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Canister_Co_R" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Fe</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="75" TypeId="Component" SubtypeId="Canister_Fe_R" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Mg</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Canister_Mg_R" />
-      </Prerequisites>
-      <Result Amount="30" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Ni</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="6" TypeId="Component" SubtypeId="Canister_Ni_R" />
-      </Prerequisites>
-      <Result Amount="5" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Pt</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Canister_Pt_R" />
-      </Prerequisites>
-      <Result Amount="70" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Si</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="23" TypeId="Component" SubtypeId="Canister_Si_R" />
-      </Prerequisites>
-      <Result Amount="10" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_Stone</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="65" TypeId="Component" SubtypeId="Canister_Stone_R" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Credit_U</SubtypeId>
-      </Id>
-      <DisplayName>Credits</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Canister_U_R" />
-      </Prerequisites>
-      <Result Amount="20" TypeId="Component" SubtypeId="Credit" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-	
-
-	
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Ag2</SubtypeId>
-      </Id>
-      <DisplayName>Silver Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="3" TypeId="Component" SubtypeId="Canister_Ag_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Au2</SubtypeId>
-      </Id>
-      <DisplayName>Gold Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="30" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Au_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Co2</SubtypeId>
-      </Id>
-      <DisplayName>Cobalt Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Co_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Fe2</SubtypeId>
-      </Id>
-      <DisplayName>Iron Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="75" TypeId="Component" SubtypeId="Canister_Fe_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Mg2</SubtypeId>
-      </Id>
-      <DisplayName>Magnesium Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="30" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Mg_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Ni2</SubtypeId>
-      </Id>
-      <DisplayName>Nickel Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="5" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="6" TypeId="Component" SubtypeId="Canister_Ni_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Pt2</SubtypeId>
-      </Id>
-      <DisplayName>Platinum Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="70" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_Pt_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Si2</SubtypeId>
-      </Id>
-      <DisplayName>Silicon Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="23" TypeId="Component" SubtypeId="Canister_Si_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_Stone2</SubtypeId>
-      </Id>
-      <DisplayName>Stone Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="65" TypeId="Component" SubtypeId="Canister_Stone_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Canister_U2</SubtypeId>
-      </Id>
-      <DisplayName>Uranium Canister</DisplayName>
-      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
-      <Prerequisites>
-        <Item Amount="20" TypeId="Component" SubtypeId="Credit" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Canister_U_R" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-  </Blueprints>
 </Definitions>

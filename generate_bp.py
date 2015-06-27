@@ -106,4 +106,4 @@ def generate_bp(ore_values, assembler_efficiency):
 	
 		
 
-	write_file("Data/BP.xml", root)
+	write_file("Data/BP.sbc", root)
