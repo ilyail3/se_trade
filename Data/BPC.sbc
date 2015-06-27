@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+  
+  
+  
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Canister_BPC</SubtypeId>
+      </Id>
+      <DisplayName>Canisters</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Credit_BPC</SubtypeId>
+      </Id>
+      <DisplayName>Credits</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+  
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Ag" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Au" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Co" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Fe" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Mg" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Ni" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Pt" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Si" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_Stone" />
+	<Entry Class="Credit_BPC" BlueprintSubtypeId="Credit_U" />
+  
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Ag" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Au" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Co" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Fe" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Mg" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Ni" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Pt" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Si" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_Stone" />
+    <Entry Class="Canister_BPC" BlueprintSubtypeId="Canister_U" />
+	
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Ag2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Au2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Co2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Fe2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Mg2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Ni2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Pt2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Si2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_Stone2" />
+    <Entry Class="Credit_BPC" BlueprintSubtypeId="Canister_U2" />
+	
+	
+  </BlueprintClassEntries>
+</Definitions>

@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Credit</SubtypeId>
+      </Id>
+      <DisplayName>Credits</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>0.1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Credit.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Ag_R</SubtypeId>
+      </Id>
+      <DisplayName>Silver Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Ag.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Au_R</SubtypeId>
+      </Id>
+      <DisplayName>Gold Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Au.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Co_R</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Co.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Fe_R</SubtypeId>
+      </Id>
+      <DisplayName>Iron Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Fe.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Mg_R</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Mg.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Ni_R</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Ni.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Pt_R</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Pt.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Si_R</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Si.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_Stone_R</SubtypeId>
+      </Id>
+      <DisplayName>Stone Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_Stone.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+	
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>Canister_U_R</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Canister</DisplayName>
+      <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>375</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Canister_U.mwm</Model>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.5</DropProbability>
+    </Component>
+  </Components>
+</Definitions>
