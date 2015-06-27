@@ -35,7 +35,7 @@
       </BuildProgressModels>
       <BlockPairName>ATM</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>30000000</BuildTimeSeconds>
+      <BuildTimeSeconds>100</BuildTimeSeconds>
       <InventoryMaxVolume>12</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>

@@ -264,7 +264,7 @@
       <DisplayName>Credits</DisplayName>
       <Icon>Textures\GUI\Icons\Icon_Credit.dds</Icon>
       <Prerequisites>
-        <Item Amount="600" TypeId="Component" SubtypeId="Canister_Stone_R" />
+        <Item Amount="65" TypeId="Component" SubtypeId="Canister_Stone_R" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Credit" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
@@ -408,7 +408,7 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Credit" />
       </Prerequisites>
-      <Result Amount="600" TypeId="Component" SubtypeId="Canister_Stone_R" />
+      <Result Amount="65" TypeId="Component" SubtypeId="Canister_Stone_R" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
 
