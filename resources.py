@@ -1,9 +1,10 @@
 class TradableResource(object):
 	item_name = None
 
-	def __init__(self, name, rate, display_name=None):
+	def __init__(self, name, rate, icon, display_name=None):
 		self.name = name
 		self.rate = rate
+		self.icon = icon
 
 		if display_name is None:
 			self.display_name = name + " " + self.item_name

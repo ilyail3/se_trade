@@ -1,6 +1,26 @@
 from lxml import etree
 from lxml.builder import E
 from data_write import write_file
+import Image
+from subprocess import Popen, PIPE
+from os import path
+
+credit_icon = Image.open("icons/png/credit.png")
+convert_icon = Image.open("icons/png/convert_to.png").resize((20,20))
+
+def create_convert_icon(source_icon, dest_icon, save_to):	
+	s_copy = source_icon.resize((42, 42))
+
+	im = Image.new("RGBA", (128,128))
+	im.paste(dest_icon, (0,0,128,128), dest_icon)
+	im.paste(s_copy, (5,5,5+42,5+42), s_copy)
+	im.paste(convert_icon, (5+45,16,5+45+20,16+20), convert_icon)
+	im.save(save_to, "PNG")
+
+def convert_dds(source_file, dest_file):
+	p = Popen(["nvcompress", "-bc3", source_file, dest_file], stdout = PIPE)
+	p.stdout.read()
+	p.wait()
 
 def generate_bp(ore_values, assembler_efficiency):
 	root = etree.Element("Blueprints")
@@ -72,13 +92,43 @@ def generate_bp(ore_values, assembler_efficiency):
 		credits = str(min_div)
 		cans = str(int(min_div * buy_rate))
 
+		target_icon = Image.open("icons/png/" + ore.icon)
+
+		
+		buy_dds = "Textures/GUI/Icons/Icon_Buy_%s.dds" % ore.name
+
+		if not path.exists(buy_dds):
+			buy_icon = "icons/png/buy_%s.png" % ore.name.lower()	
+
+			create_convert_icon(
+				credit_icon, 
+				target_icon,
+				buy_icon
+			)
+
+			convert_dds(buy_icon, buy_dds)
+	
+		
+		sell_dds = "Textures/GUI/Icons/Icon_Sell_%s.dds" % ore.name
+
+		if not path.exists(sell_dds):
+			sell_icon = "icons/png/sell_%s.png" % ore.name.lower()
+
+			create_convert_icon(
+				target_icon, 
+				credit_icon,
+				sell_icon
+			)
+
+			convert_dds(sell_icon, sell_dds)
+
 		bp = E.Blueprint(
 			E.Id(
 				E.TypeId("BlueprintDefinition"),
 				E.SubtypeId(ore.canister_id + "_Buy")
 			),
-			E.DisplayName(ore.canister_name),
-			E.Icon("Textures\\GUI\\Icons\\Icon_Canister.dds"),
+			E.DisplayName("Buy " + ore.canister_name),
+			E.Icon(buy_dds.replace("/", "\\")),
 			E.Prerequisites(
 				E.Item(Amount=credits, TypeId="Component", SubtypeId="Credit")
 			),
@@ -93,8 +143,8 @@ def generate_bp(ore_values, assembler_efficiency):
 				E.TypeId("BlueprintDefinition"),
 				E.SubtypeId(ore.canister_id + "_Sell")
 			),
-			E.DisplayName(ore.canister_name),
-			E.Icon("Textures\\GUI\\Icons\\Icon_Canister.dds"),
+			E.DisplayName("Sell " + ore.canister_name),
+			E.Icon(sell_dds.replace("/", "\\")),
 			E.Prerequisites(
 				E.Item(Amount=cans, TypeId="Component", SubtypeId=ore.canister_id)
 			),

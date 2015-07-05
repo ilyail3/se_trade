@@ -149,8 +149,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Ice_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Ice Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Ice Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Ice.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="1" SubtypeId="Credit"/>
     </Prerequisites>
@@ -162,8 +162,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Ice_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Ice Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Ice Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Ice.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="420" SubtypeId="Ice_Canister"/>
     </Prerequisites>
@@ -175,8 +175,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Stone_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Stone Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Stone Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Stone.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="2" SubtypeId="Credit"/>
     </Prerequisites>
@@ -188,8 +188,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Stone_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Stone Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Stone Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Stone.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="837" SubtypeId="Stone_Canister"/>
     </Prerequisites>
@@ -201,8 +201,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Iron_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Iron Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Iron Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Iron.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="1" SubtypeId="Credit"/>
     </Prerequisites>
@@ -214,8 +214,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Iron_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Iron Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Iron Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Iron.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="525" SubtypeId="Iron_Canister"/>
     </Prerequisites>
@@ -227,8 +227,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Nickel_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Nickel Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Nickel Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Nickel.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="1" SubtypeId="Credit"/>
     </Prerequisites>
@@ -240,8 +240,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Nickel_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Nickel Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Nickel Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Nickel.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="12" SubtypeId="Nickel_Canister"/>
     </Prerequisites>
@@ -253,8 +253,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Cobalt_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Cobalt Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Cobalt Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Cobalt.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="9" SubtypeId="Credit"/>
     </Prerequisites>
@@ -266,8 +266,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Cobalt_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Cobalt Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Cobalt Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Cobalt.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="89" SubtypeId="Cobalt_Canister"/>
     </Prerequisites>
@@ -279,8 +279,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Magnesium_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Magnesium Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Magnesium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Magnesium.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="4" SubtypeId="Credit"/>
     </Prerequisites>
@@ -292,8 +292,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Magnesium_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Magnesium Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Magnesium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Magnesium.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="1" SubtypeId="Magnesium_Canister"/>
     </Prerequisites>
@@ -305,8 +305,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Silicon_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Silicon Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Silicon Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Silicon.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="10" SubtypeId="Credit"/>
     </Prerequisites>
@@ -318,8 +318,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Silicon_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Silicon Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Silicon Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Silicon.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="231" SubtypeId="Silicon_Canister"/>
     </Prerequisites>
@@ -331,8 +331,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Silver_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Silver Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Silver Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Silver.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="10" SubtypeId="Credit"/>
     </Prerequisites>
@@ -344,8 +344,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Silver_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Silver Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Silver Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Silver.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="33" SubtypeId="Silver_Canister"/>
     </Prerequisites>
@@ -357,8 +357,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Gold_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Gold Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Gold Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Gold.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="10" SubtypeId="Credit"/>
     </Prerequisites>
@@ -370,8 +370,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Gold_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Gold Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Gold Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Gold.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="3" SubtypeId="Gold_Canister"/>
     </Prerequisites>
@@ -383,8 +383,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Platinum_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Platinum Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Platinum Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Platinum.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="7" SubtypeId="Credit"/>
     </Prerequisites>
@@ -396,8 +396,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Platinum_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Platinum Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Platinum Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Platinum.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="1" SubtypeId="Platinum_Canister"/>
     </Prerequisites>
@@ -409,8 +409,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Uranium_Canister_Buy</SubtypeId>
     </Id>
-    <DisplayName>Uranium Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Buy Uranium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Buy_Uranium.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="9" SubtypeId="Credit"/>
     </Prerequisites>
@@ -422,8 +422,8 @@
       <TypeId>BlueprintDefinition</TypeId>
       <SubtypeId>Uranium_Canister_Sell</SubtypeId>
     </Id>
-    <DisplayName>Uranium Canister</DisplayName>
-    <Icon>Textures\GUI\Icons\Icon_Canister.dds</Icon>
+    <DisplayName>Sell Uranium Canister</DisplayName>
+    <Icon>Textures\GUI\Icons\Icon_Sell_Uranium.dds</Icon>
     <Prerequisites>
       <Item TypeId="Component" Amount="4" SubtypeId="Uranium_Canister"/>
     </Prerequisites>

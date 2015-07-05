@@ -4,7 +4,7 @@ from generate_bpc import generate_bpc
 from generate_comp import generate_comp
 
 ore_values = [
-	RawOre("Ice", 280, "Ice"),
+	RawOre("Ice", 280, "ore_H2O_ice.png", "Ice"),
 	#RawOre("Stone", 310),
 	#RawOre("Iron", 500),
 	#RawOre("Nickel Ore", 20),
@@ -16,16 +16,16 @@ ore_values = [
 	#RawOre("Platinum Ore", 20),
 	#RawOre("Uranium Ore", 44)
 
-	Ingot("Stone", 279, "Gravel"),
-	Ingot("Iron", 350),
-	Ingot("Nickel", 8),
-	Ingot("Cobalt", 6.6),
-	Ingot("Magnesium", 0.168, "Magnesium Powder"),
-	Ingot("Silicon", 15.4, "Silicon Wafer"),
-	Ingot("Silver", 2.2),
-	Ingot("Gold", 0.2),
-	Ingot("Platinum", 0.1),
-	Ingot("Uranium", 0.308)
+	Ingot("Stone", 279, "gravel_ingot.png", "Gravel"),
+	Ingot("Iron", 350, "iron_ingot.png"),
+	Ingot("Nickel", 8, "nickel_ingot.png"),
+	Ingot("Cobalt", 6.6, "cobalt_ingot.png"),
+	Ingot("Magnesium", 0.168, "magnesium_ingot.png", "Magnesium Powder"),
+	Ingot("Silicon", 15.4, "silicon_ingot.png", "Silicon Wafer"),
+	Ingot("Silver", 2.2, "silver_ingot.png"),
+	Ingot("Gold", 0.2, "gold_ingot.png"),
+	Ingot("Platinum", 0.1, "platinum_ingot.png"),
+	Ingot("Uranium", 0.308, "uranium_ingot.png")
 ]
 
 assembler_efficiency = 1
